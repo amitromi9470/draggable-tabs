@@ -1,0 +1,27 @@
+.tabContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 3px;
+  cursor: pointer;
+  background-color: rgb(245, 235, 235);
+  border-radius: 10px;
+}
+
+.remove {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cross {
+  color: rgb(245, 235, 235);
+  cursor: pointer;
+}
+
+.cross:hover {
+  color: blue;
+}
+
+.tabContainer:focus {
+  border-bottom: 3px solid blue;
+  outline: none;
+}

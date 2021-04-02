@@ -1,0 +1,18 @@
+.tabBarContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 1px solid red;
+    padding: 3px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
